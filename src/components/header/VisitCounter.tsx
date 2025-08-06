@@ -47,7 +47,7 @@ const VisitCounter = () => {
         className="font-mono font-bold text-white tracking-widest"
         aria-label="Website visit count"
       >
-        {visitCount != 0 ? visitCount.toString().padStart(6, "0") : "..."}
+        {visitCount != 0 ? visitCount.toString().padStart(5, "0") : "..."}
       </span>
     </div>
   );
